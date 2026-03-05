@@ -1,6 +1,6 @@
 periodics:
 - agent: kubernetes
-  cluster: build06
+  cluster: build01
   cron: 0 1 1,15 * *
   decorate: true
   extra_refs:
@@ -242,7 +242,7 @@ periodics:
       secret:
         secretName: result-aggregator
 - agent: kubernetes
-  cluster: build06
+  cluster: build10
   cron: 39 1 * * *
   decorate: true
   extra_refs:
@@ -329,7 +329,7 @@ periodics:
       secret:
         secretName: result-aggregator
 - agent: kubernetes
-  cluster: build06
+  cluster: build01
   cron: 49 23 * * *
   decorate: true
   extra_refs:
@@ -415,7 +415,7 @@ periodics:
       secret:
         secretName: result-aggregator
 - agent: kubernetes
-  cluster: build06
+  cluster: build01
   cron: 27 1 * * *
   decorate: true
   extra_refs:
